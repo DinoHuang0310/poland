@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite-ssg build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "axios": "^1.20.0",
+    "gh-pages": "^6.3.0",
     "swiper": "^14.2.0",
     "tailwindcss": "^4.3.3",
     "vue": "^3.5.41",
