@@ -1,0 +1,75 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+  --font-montserrat: "Montserrat", sans-serif;
+
+  /* color schema */
+  --color-primary: #384848;
+  --color-secondary: #b81e35;
+  --color-text: #444444;
+  --color-bgcolor: #e5e1d8;
+  --color-bg-light: #d6d2c9;
+}
+
+@custom-variant can-hover (@media (hover: hover));
+
+html, body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.06rem;
+  color: var(--color-text);
+  background-color: var(--color-bgcolor);
+}
+
+@media screen and (min-width: 1024px) {
+  html, body {
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* @media screen and (min-width: 2400px) {
+  html {
+    font-size: 0.9vw;
+  }
+}
+@media screen and (max-width: 1920px) {
+  html {
+    font-size: 1.1vw;
+  }
+}
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 1.3vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 4.2vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 4.5vw;
+  }
+} */
