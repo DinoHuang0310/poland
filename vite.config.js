@@ -15,7 +15,6 @@ export default defineConfig(({ command, mode }) => {
   // GA 對應 domain
   const domains = {
     'www.businesstoday.com.tw': 'G-E8H9YJZQJP',
-    'events.businesstoday.com.tw': 'G-E8QKRYXRLQ',
     'esg.businesstoday.com.tw': 'G-SB7EH4Y2DY',
   }
 
