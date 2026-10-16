@@ -16,7 +16,7 @@
             >FULL COVERAGE</span>
           </div>
           <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black font-serif">
-            深入波蘭的五條閱讀路線
+            深入波蘭的閱讀路線
           </h2>
         </article>
       </section>
@@ -61,6 +61,19 @@
                 <div class="flex-1">
                   <span class="text-sm opacity-60">2026-08-04</span>
                   <p>波蘭直擊3—只要一息尚存，失去的我們用軍刀奪回！「野牛渡河」記取亡國歷史教訓，台灣該如何借鑑</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a
+                class="flex items-center sm:px-2 py-4 border-b border-bg-light/40 can-hover:hover:bg-[#7d8582] transition"
+                href="https://www.businesstoday.com.tw/article/category/183025/post/202609210031/"
+                target="_blank"
+              >
+                <span class="pl-2.5 pr-2 py-0.5 mr-4 sm:mr-7 text-sm border border-bg-light">產業</span>
+                <div class="flex-1">
+                  <span class="text-sm opacity-60">2026-09-21</span>
+                  <p>波蘭直擊4—不甘只當歐洲組裝中心、著眼「魔幻晶三角」！官員叩關台灣，「野牛蛻變」如何練下個10年引擎</p>
                 </div>
               </a>
             </li>

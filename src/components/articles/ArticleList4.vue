@@ -1,5 +1,5 @@
 <template>
-  <li class="w-1/2">
+  <li class="w-1/2 even:mt-10 even:sm:mt-16">
     <figure
       class="bg-white cursor-pointer shadow-md can-hover:hover:shadow-xs can-hover:hover:scale-102 transition"
       @click="openModal"
@@ -7,7 +7,7 @@
       <img
         class="aspect-4/3 object-cover object-center bg-primary/30"
         src="/src/assets/images/article-img04.jpg"
-        alt="波蘭如何從二檔催到四檔"
+        alt="從波蘭回看台灣的國家課題"
         loading="lazy"
       >
       <figcaption class="p-2 sm:p-4">

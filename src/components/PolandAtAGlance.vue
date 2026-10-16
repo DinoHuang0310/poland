@@ -86,11 +86,11 @@
           </span>
           <p class="text-sm opacity-80 mt-1 mb-4">從休克到雄起</p>
           <h3 class="text-3xl sm:text-4xl lg:text-5xl mb-6 font-black font-serif text-primary">從休克療法，到兆美元經濟體</h3>
-          <p>從共產體制瓦解後的經濟重整，到加入歐盟、承接市場與供應鏈，波蘭花了三十多年重新堆疊製造、科技與服務能力，讓一頭瀕死的野牛重新站起來。</p>
+          <p>從共產體制瓦解後的經濟重整，到加入歐盟、承接市場與供應鏈，波蘭花了三十多年重新堆疊製造、科技與服務能力，讓一頭瀕死的野牛重新站起來。如今，這頭野牛遠渡重洋叩關台灣，著眼歐洲「魔幻晶三角」，要打造下個十年成長的引擎。</p>
         </article>
         <ul class="relative flex justify-between scale-105 space-x-2 sm:space-x-6 lg:space-x-12 mt-10 sm:mt-16">
           <ArticleList1 />
-          <ArticleList2 />
+          <ArticleList5 />
         </ul>
       </div>
     </div>
@@ -139,6 +139,7 @@
         </article>
         <ul class="relative flex justify-between scale-105 space-x-2 sm:space-x-6 lg:space-x-12 mt-10 sm:mt-16 pb-10">
           <ArticleList4 />
+          <ArticleList2 />
         </ul>
       </div>
     </div>
@@ -153,6 +154,7 @@ import ArticleList1 from './articles/ArticleList1.vue';
 import ArticleList2 from './articles/ArticleList2.vue';
 import ArticleList3 from './articles/ArticleList3.vue';
 import ArticleList4 from './articles/ArticleList4.vue';
+import ArticleList5 from './articles/ArticleList5.vue';
 
 import bgImg from '../assets/images/poland-map.png'
 
