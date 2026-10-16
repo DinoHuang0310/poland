@@ -33,7 +33,8 @@ export default defineConfig(({ command, mode }) => {
       allowedHosts: ['.ngrok-free.app'],
     },
 
-    base: isDev ? '/' : './',
+    // base: isDev ? '/' : './',
+    base: isDev ? '/' : '/bt_topic/2026/poland/',
 
     plugins: [
       vue(),
